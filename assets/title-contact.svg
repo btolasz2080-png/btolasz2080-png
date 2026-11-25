@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Your move.">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#8E6B27"/><stop offset=".5" stop-color="#D9B064"/><stop offset="1" stop-color="#8E6B27"/></linearGradient></defs>
+<style>.mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}.serif{font-family:'Cormorant Garamond','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;font-weight:500}.l{stroke-dasharray:1200;stroke-dashoffset:1200;animation:d 1.6s .2s cubic-bezier(.22,1,.36,1) forwards}@keyframes d{to{stroke-dashoffset:0}}</style>
+<text x="0" y="20" class="mono" fill="#94B1C8" style="font-size:12px;letter-spacing:3px">04 — CONTACT</text>
+<text x="-2" y="70" class="serif" style="font-size:44px"><tspan fill="url(#g)">Your </tspan><tspan fill="#94B1C8" font-style="italic">move.</tspan></text>
+<line class="l" x1="0" y1="92" x2="1200" y2="92" stroke="#94B1C8" stroke-opacity=".45"/>
+</svg>

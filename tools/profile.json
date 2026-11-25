@@ -1,0 +1,22 @@
+{
+  "name": "Your Name",
+  "eyebrow": "Computer Science · Sophomore · Your University",
+  "headline": ["Learning to build,", "one move", "at a time."],
+  "sub1": "A CS student filing everything I learn — Cisco, Coursera,",
+  "sub2": "certificates and the projects I build at college.",
+  "status": "Currently learning: networking · Python · web",
+  "skills": ["Python", "Java", "JavaScript", "HTML & CSS", "SQL", "Cisco Packet Tracer", "TCP/IP", "Networking basics", "Git & GitHub", "Linux", "Figma", "Problem solving", "Teamwork"],
+  "folders": [
+    { "id": "cisco", "label": "Cisco", "color": "burgundy", "items": [] },
+    { "id": "coursera", "label": "Coursera", "color": "blue", "items": [] },
+    { "id": "other", "label": "Other", "color": "mocha", "items": [] },
+    { "id": "certificates", "label": "Certificates", "color": "paper", "items": [] },
+    { "id": "projects", "label": "Projects", "color": "espresso", "items": [] }
+  ],
+  "titles": [
+    { "id": "files", "tag": "01 — My files", "a": "Everything I learn,", "b": "filed." },
+    { "id": "about", "tag": "02 — About", "a": "Small moves,", "b": "every day." },
+    { "id": "skills", "tag": "03 — Skills", "a": "Pieces on", "b": "my board." },
+    { "id": "contact", "tag": "04 — Contact", "a": "Your", "b": "move." }
+  ]
+}
