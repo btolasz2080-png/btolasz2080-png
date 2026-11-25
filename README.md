@@ -24,9 +24,9 @@
 
 **🌐 Cisco Networking Academy**
 
-<!-- Add one line per course, e.g. -->
-<!-- - **Introduction to Networks** · 2025 · [certificate](link) -->
+<!-- sync:cisco:start -->
 - 📥 *Coming soon. I'm adding my Cisco courses.*
+<!-- sync:cisco:end -->
 
 </details>
 </td>
@@ -36,7 +36,9 @@
 
 **🎓 Coursera**
 
+<!-- sync:coursera:start -->
 - 📥 *Coming soon. I'm adding my Coursera courses.*
+<!-- sync:coursera:end -->
 
 </details>
 </td>
@@ -46,7 +48,9 @@
 
 **📚 Other platforms**
 
+<!-- sync:other:start -->
 - 📥 *Coming soon.*
+<!-- sync:other:end -->
 
 </details>
 </td>
@@ -58,7 +62,9 @@
 
 **🏅 Certificates**
 
+<!-- sync:certificates:start -->
 - 📥 *Coming soon. Each certificate will link to its verification page.*
+<!-- sync:certificates:end -->
 
 </details>
 </td>
@@ -68,7 +74,9 @@
 
 **🧩 College projects**
 
+<!-- sync:projects:start -->
 - 📥 *I'm uploading my first college projects as repositories. They'll be pinned below.*
+<!-- sync:projects:end -->
 
 </details>
 </td>
@@ -76,8 +84,8 @@
 
 **＋ Add a file**
 
-New course, certificate or project?
-Edit this README and add one line inside the right folder.
+Folders fill themselves from my
+[portfolio site](https://btolasz2080-png.github.io), synced every hour.
 
 </td>
 </tr>
@@ -105,8 +113,10 @@ I'm a **sophomore computer science student**. I like chess because every good ga
 
 <img src="assets/title-contact.svg" width="100%" alt="04 — Contact: Your move." />
 
+<!-- sync:contact:start -->
 <p>
   📫 <b>Email</b> · <i>add your email here</i><br />
   💼 <b>LinkedIn</b> · <i>add your LinkedIn here</i><br />
+<!-- sync:contact:end -->
   ♛ <b>Interactive portfolio</b> · <a href="https://btolasz2080-png.github.io">btolasz2080-png.github.io</a>
 </p>

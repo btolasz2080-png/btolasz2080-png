@@ -1,0 +1,32 @@
+# Keeps this profile in sync with the portfolio website.
+# Add a course / certificate / project on the website ("+ Add file") and
+# within about an hour it appears in the folders here too.
+name: Sync profile from portfolio
+
+on:
+  schedule:
+    - cron: '17 * * * *'   # every hour
+  workflow_dispatch:        # "Run workflow" button for an instant sync
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: btolasz2080-png/btolasz2080-png.github.io
+          path: site
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/sync.mjs site
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets tools/profile.json
+          if git diff --cached --quiet; then echo "Already up to date"; else git commit -m "Sync from portfolio" && git push; fi
