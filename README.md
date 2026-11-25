@@ -1,7 +1,7 @@
 <!-- ♛ GitHub profile README — images live in /assets (regenerate with: node tools/build.js) -->
 
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Your Name — Computer Science · Sophomore · Learning to build, one move at a time." />
+  <img src="assets/header.svg" width="100%" alt="Albatool — Computer Science · Sophomore · Learning to build, one move at a time." />
 </p>
 
 <p align="center">
